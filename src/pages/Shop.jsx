@@ -11,14 +11,14 @@ const Shop = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const categories = [
-    "All",
-    "Clothing",
-    "Footwear",
-    "Bags & Accessories",
-    "Undergarments",
-    "Kids & Baby Fashion",
-  ];
+  // const categories = [
+  //   "All",
+  //   "Clothing",
+  //   "Footwear",
+  //   "Bags & Accessories",
+  //   "Undergarments",
+  //   "Kids & Baby Fashion",
+  // ];
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -191,7 +191,7 @@ const Shop = () => {
       </div>
 
       {/* Categories */}
-      <div className="mb-8">
+      {/* <div className="mb-8">
         <div className="flex flex-wrap gap-2">
           {categories.map((category) => (
             <Link
@@ -208,7 +208,7 @@ const Shop = () => {
             </Link>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Results Count */}
       <div className="mb-6">

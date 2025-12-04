@@ -442,7 +442,7 @@ const dashboardLink = seller?.seller?._id ? "/seller" : "/seller-login"
               : inspirationProducts.slice(0, 4).map((product) => (
                   <Link
                     key={product._id}
-                    to={`/products/${product._id}`}
+                    to={`/product/${product._id}`}
                     className="group overflow-hidden rounded-lg bg-card shadow-card hover:shadow-elegant transition-smooth cursor-pointer"
                   >
                     <div className="relative h-64 overflow-hidden">
