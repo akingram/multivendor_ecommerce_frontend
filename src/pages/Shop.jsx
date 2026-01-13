@@ -147,7 +147,7 @@ const Shop = () => {
         </p>
       </div>
 
-      {/* Search and Filters */}
+      {/* Search and Filters
       <div className="mb-8">
         <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center justify-between">
           <div className="flex-1 max-w-md">
@@ -188,7 +188,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Categories */}
       {/* <div className="mb-8">
